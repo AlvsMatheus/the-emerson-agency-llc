@@ -77,7 +77,6 @@ const IntakeForm = () => {
 
   return (
     <>
-    <Navbar/>
     <div className="min-h-screen bg-[url(/home_background.png)] flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-md">
         <form
