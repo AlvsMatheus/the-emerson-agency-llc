@@ -6,13 +6,11 @@ import Dashboard from "../pages/Dashboard";
 
 const AppRoutes = () => {
   return (
-    <BrowserRouter>
         <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/intake" element={<IntakeForm />}/>
             <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
-    </BrowserRouter>
   )
 }
 
