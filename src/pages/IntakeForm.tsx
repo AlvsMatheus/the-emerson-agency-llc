@@ -1,4 +1,3 @@
-import Navbar from "../layouts/Navbar";
 import { useState } from "react";
 import { useClients } from "../context/ClientContext";
 import type { LeadStatus } from "../types/client";
