@@ -1,0 +1,19 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "../pages/Home";
+import IntakeForm from "../pages/IntakeForm";
+import Dashboard from "../pages/Dashboard";
+
+const AppRoutes = () => {
+  return (
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/intake" element={<IntakeForm />}/>
+            <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default AppRoutes
